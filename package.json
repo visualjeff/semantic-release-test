@@ -4,12 +4,17 @@
   "description": "semantic-release-test",
   "main": "index.js",
   "scripts": {
+    "build": "tsup src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "semantic-release": "^24.2.3"
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "semantic-release": "^24.2.3",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
   }
 }
